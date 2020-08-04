@@ -1,4 +1,6 @@
-# Donate Button 
+# Donate Button Component for Vue
+
+![alt text](./src/assets/examples.png)
 
 ## Project setup
 ```

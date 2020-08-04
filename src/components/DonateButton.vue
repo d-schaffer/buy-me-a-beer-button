@@ -19,7 +19,7 @@ export default class Donate extends Vue {
   @Prop({ default:process.env.VUE_APP_BTNTEXT}) btnText!:string;
   @Prop({ default:require("@/assets/beer-mug.png") }) btnImage!:string;
   @Prop({ default:process.env.VUE_APP_BTNVALUE}) value!:string;
-  @Prop({ default: "" }) color!: string;
+  @Prop({ default: "red" }) color!: string;
 
   
   get cssProps() {
