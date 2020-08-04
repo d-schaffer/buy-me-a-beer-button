@@ -1,6 +1,6 @@
 <template>
   <div>
-    <donate-button />
+    <donate-button/>
   </div>
 </template>
 
