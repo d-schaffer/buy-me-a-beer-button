@@ -2,35 +2,39 @@
 
 ![alt text](./src/assets/examples.png)
 
+
 ## Project setup
 ```
-npm install
+# at first you need a .env File in your Main Project
+# add these two lines with your datas:
+
+VUE_APP_BTNTEXT=Buy me a Beer
+VUE_APP_BTNVALUE=DU38SPUBF4ZYS
+
+```
+then you must add the Project in your Dependencies: 
+```
+ "dependencies": {
+    ...
+    "DonateButton": "git+https://github.com/d-schaffer/
+    ...
+  },
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
+### Now you can import the Project in your maint.ts
 ```
-npm run build
-```
+...
+import { DonatePlugin } from "DonateButton";
+...
+Vue.use(DonatePlugin);
+...
 
-### Run your unit tests
 ```
-npm run test:unit
-```
+Now you can use the Component in your whole Project
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+<small>Other Tools: 
+https://password-organizer.com<br>
+For Question feel free to contact me: dschaffer@icloud.com</small>
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
