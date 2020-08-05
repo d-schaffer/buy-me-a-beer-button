@@ -34,7 +34,7 @@ Vue.use(DonatePlugin);
 Now you can use the Component in your whole Project
 
 <small>Other Tools: 
-https://password-organizer.com<br>
+https://password-organizer.de<br>
 For Question feel free to contact me: dschaffer@icloud.com</small>
 
 
