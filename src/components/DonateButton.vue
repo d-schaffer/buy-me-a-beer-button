@@ -36,10 +36,12 @@ export default class DonateButton extends Vue {
   @Prop({ default: require("../assets/beer-mug.png") }) btnImage!: string;
   @Prop({ default: process.env.VUE_APP_BTNVALUE }) value!: string;
   @Prop({ default: "red" }) color!: string;
+  @Prop({ default: "black"}) hoverColor!: string;
 
   get cssProps() {
     return {
-      "--color": this.color
+      "--color": this.color,
+      "--hover-color": this.hoverColor
     };
   }
 }
@@ -58,7 +60,7 @@ export default class DonateButton extends Vue {
   border-radius: 5px;
 
   &:hover {
-    background-color: black;
+    background-color: var(--hover-color);
   }
   &-image {
     height: 20px;
