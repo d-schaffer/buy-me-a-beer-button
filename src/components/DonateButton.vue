@@ -11,7 +11,6 @@
       <button
         class="donate-btn d-flex"
         type="submit"
-        @submit="submit"
         v-bind:style="cssProps"
       >
         <img
