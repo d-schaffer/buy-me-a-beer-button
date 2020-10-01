@@ -8,11 +8,7 @@
     >
       <input type="hidden" name="cmd" value="_s-xclick" />
       <input type="hidden" name="hosted_button_id" v-bind:value="value" />
-      <button
-        class="donate-btn d-flex"
-        type="submit"
-        v-bind:style="cssProps"
-      >
+      <button class="donate-btn d-flex" type="submit" v-bind:style="cssProps">
         <img
           class="donate-btn-image"
           type="image"
@@ -35,7 +31,7 @@ export default class DonateButton extends Vue {
   @Prop({ default: require("../assets/beer-mug.png") }) btnImage!: string;
   @Prop({ default: process.env.VUE_APP_BTNVALUE }) value!: string;
   @Prop({ default: "red" }) color!: string;
-  @Prop({ default: "black"}) hoverColor!: string;
+  @Prop({ default: "black" }) hoverColor!: string;
 
   get cssProps() {
     return {

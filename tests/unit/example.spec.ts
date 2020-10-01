@@ -1,13 +1,13 @@
 import { expect } from "chai";
 import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import DonateButton from "@/components/DonateButton.vue";
 
-describe("HelloWorld.vue", () => {
-  it("renders props.msg when passed", () => {
-    const msg = "new message";
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
+describe("DonateButton.vue", () => {
+  it("renders props.btnText when passed", () => {
+    const btnText = "This should show up in the button!";
+    const wrapper = shallowMount(DonateButton, {
+      propsData: { btnText }
     });
-    expect(wrapper.text()).to.include(msg);
+    expect(wrapper.text()).to.include(btnText);
   });
 });
