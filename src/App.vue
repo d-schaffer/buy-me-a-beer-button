@@ -1,6 +1,6 @@
 <template>
   <div>
-    <donate-button color="black" />
+    <donate-button color="black" hover-color="red" />
   </div>
 </template>
 
