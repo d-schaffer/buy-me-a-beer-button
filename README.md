@@ -35,6 +35,6 @@ Now you can use the Component in your whole Project
 
 <small>Other Tools: 
 https://password-organizer.de<br>
-For Question feel free to contact me: dschaffer@icloud.com</small>
+For Question feel free to contact me: dennis.a.schaffer@icloud.com</small>
 
 
